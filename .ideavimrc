@@ -1,0 +1,8 @@
+source ~/.vimrc
+" Comment by block comment
+let g:mapleader=","
+let g:WhichKeyDesc_CompileComments_CommentByLineComment = "<leader>cl     comment-by-line-comment"
+nnoremap <leader>cc    :action CommentByLineComment<CR>
+vnoremap <leader>cc    :action CommentByLineComment<CR>
+nnoremap <leader>cu    :action CommentByLineComment<CR>
+vnoremap <leader>cu    :action CommentByLineComment<CR>
